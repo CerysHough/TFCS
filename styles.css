@@ -11,9 +11,7 @@ html, body{
 }
 
 nav {
-    width: 100%;
     background: #4ECDC4;
-    overflow: auto;
 }
 nav div {
     color: #1A535C;
@@ -22,18 +20,21 @@ nav div {
   height:60px;
 }
 nav ul {
-  padding:0px;
-  margin:0px;
+  display:flex;
+  padding: 0px;
+  margin: 0px;
+  height:100%;
   }
 nav ul li {
     display: inline-block;
-    margin-left: 100px;
+    height:100%;
 }
 nav ul li a {
     text-decoration: none;
     color: #1A535C;
-    padding: 35px;
-    overflow: hidden;
+    padding: 0 35px;
+    height:100%;
+    display:block;
 }
 
 nav ul li a:hover {
@@ -53,33 +54,38 @@ nav ul li a:hover {
   width:auto;
   margin-top:0px;
   margin-bottom:0px;
+  margin-right:10px;
   padding:0px 10px;
   line-height: 40px;;
 
 }
 
 .nav-holder {
-  width: 100%;
-  height:100%;
-  padding-top: 15px;
+  display: flex;
 }
 
 .logo {
-  float: left;
+  width:100%;
+  display:flex;
+  margin:15px;
 }
 
 .nav-links {
-  display:inline-block;
-  padding-top: 15px;
 }
 
 .search-signup {
-float:right;
-margin-right:50px;
-padding-top:5px;
+  display: flex;
+  flex-basis: auto;
+  width: 100%;
+  flex-grow: 1;
+  align-items: center;
+  order: 3;
+  text-align: right;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 15px;
 }
 .search-signup a {
-  margin:20px 0px 0px 20px;
   background-color:#fff;
   border: 2px solid #FF6B6B;
   font-weight: 600;
