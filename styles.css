@@ -12,6 +12,7 @@ html, body{
 
 nav {
     background: #4ECDC4;
+	width:100%;
 }
 nav div {
     color: #1A535C;
