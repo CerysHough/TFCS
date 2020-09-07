@@ -7,12 +7,13 @@ html, body{
     text-align: center;
     align-content: center;
     background-size: 100%;
-    
+    padding:0;
+
 }
 
 nav {
     background: #4ECDC4;
-	width:100%;
+    width:100%;
 }
 nav div {
     color: #1A535C;
@@ -52,7 +53,8 @@ nav ul li a:hover {
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
-  width:auto;
+  max-width:40%;
+  min-width:40%;
   margin-top:0px;
   margin-bottom:0px;
   margin-right:10px;
@@ -93,6 +95,7 @@ nav ul li a:hover {
   color:#FF6B6B;
   text-decoration: none;
   padding:15px;
+  word-break: ;
   }
 
   .search-signup a:hover {
