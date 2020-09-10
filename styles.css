@@ -410,9 +410,7 @@ footer {
   }
 
   .contentHome {
-    max-height: 1000px;
-    height: 90%;
-    margin: auto;
+    margin: auto auto 5% auto;
     padding-top: 2%;
     }
   .banner {
@@ -525,4 +523,31 @@ footer {
   height:150px;
   display:block;
   margin: 0px 0px 20px 0px;
+  }
+
+  @media only screen and (max-width: 650px) {
+.contentHome h1 {
+  background-color:blue;
+  font-size: 100px;
+}
+
+.contentHome h2 {
+  display: block;
+  font-size: 50px;
+  color: #1A535C;
+  background-color: #;
+  display: inline-block;
+  padding: 0px 10px;
+  font-weight: 400;
+  margin: 5px 0 10px 0;
+}
+.contentHome img {
+  margin: 50px auto 0 auto;
+  height: 300px;
+}
+
+.button-holder {
+  background-color: transparent;
+}
+
   }
