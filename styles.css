@@ -47,6 +47,10 @@ nav ul li a:hover {
 
 }
 
+.mobmenu {
+  display:none;
+}
+
 .search-signup > input[type=text]{
   font-family: 'Poppins', sans-serif;
   border: 2px solid #FF6B6B;
@@ -527,7 +531,7 @@ footer {
 
   @media only screen and (max-width: 1000px) {
 .contentHome h1 {
-  background-color:blue;
+
   font-size: 100px;
 }
 
@@ -569,4 +573,33 @@ a {
   margin-bottom:60px;
 }
 
+p {
+  font-size: 30px;
+}
+
+.nav-links {
+  display: none;
+}
+
+.search-signup  {
+display:none;
+}
+
+.mobmenu {
+  display:block;
+  font-weight:600;
+  font-size:40px;
+  cursor: pointer;
+}
+
+.mobmenu:active .nav-links {
+  display:block;
+
   }
+  .mobmenu:active .nav-links ul {
+    display:block;
+  
+    }
+  
+
+}
