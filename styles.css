@@ -550,4 +550,23 @@ footer {
   background-color: transparent;
 }
 
+.button-holder a {
+  background-color: #1A535C;
+  border: none;
+  box-shadow: 0px 0px 20px 1px #717171;
+  width: 90%;
+  color: #fff;
+  display: block;
+  padding: 30px 0px;
+  text-decoration: none;
+}
+
+a {
+  font-size:40px;
+}
+
+.learn-services {
+  margin-bottom:60px;
+}
+
   }
