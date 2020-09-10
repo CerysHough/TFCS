@@ -590,7 +590,11 @@ display:none;
   font-weight:600;
   font-size:40px;
   cursor: pointer;
+  margin-right:10px;
+  text-align: right;
 }
+
+
 
 .mobmenu:active .nav-links {
   display:block;
@@ -598,8 +602,22 @@ display:none;
   }
   .mobmenu:active .nav-links ul {
     display:block;
-  
+  }
+  .mobmenu:hover .nav-links:hover ul{
+    display:block;
     }
+
+    .mobmenu:hover .nav-links {
+      display:block;
+      }
+
+      .mobmenu:hover .nav-links ul{
+        display:block;
+        }
+  
+
+
+  
   
 
 }
